@@ -36,6 +36,7 @@ const teamCollection = defineCollection({
 export const collections = {
   'blog': blogCollection,
   'team': teamCollection,
+  
 };
 
 const albums = defineCollection({
@@ -48,6 +49,3 @@ const albums = defineCollection({
     }),
 });
 
-export const collections = {
-  albums,
-};
