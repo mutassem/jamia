@@ -39,7 +39,7 @@ export const collections = {
   
 };
 
-const albums = defineCollection({
+/*const albums = defineCollection({
   type: "data",
   schema: ({ image }) =>
     z.object({
@@ -47,5 +47,5 @@ const albums = defineCollection({
       description: z.string().optional(),
       cover: image(),
     }),
-});
+});*/
 
